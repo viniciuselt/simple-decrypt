@@ -1,11 +1,11 @@
 from PySimpleGUI import PySimpleGUI as sg
 
 # Layout
-sg.theme('DarkPurple2')
+sg.theme('Reds')
 layout = [
     [sg.Text('Descriptografia', font=("Helvetica", 20), justification='center', expand_x=True)],
     [sg.Column([
-        [sg.Text('Digite sua frase criptografada:', font=("Helvetica", 12)), sg.Input(key='chave', size=(78, 7))],
+        [sg.Text('Cole aqui sua frase criptografada:', font=("Helvetica", 12)), sg.Input(key='chave', size=(78, 7))],
         [sg.Text('Frase descriptografada:', font=("Helvetica", 12)), sg.Input(key='saida', size=(84, 7), disabled=True)]
     ], element_justification='c'), 
      sg.Column([
