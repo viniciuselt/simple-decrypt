@@ -6,7 +6,7 @@ layout = [
     [sg.Text('Descriptografia', font=("Helvetica", 20), justification='center', expand_x=True)],
     [sg.Column([
         [sg.Text('Cole aqui sua frase criptografada:', font=("Helvetica", 12)), sg.Input(key='chave', size=(78, 7))],
-        [sg.Text('Frase descriptografada:', font=("Helvetica", 12)), sg.Input(key='saida', size=(84, 7), disabled=True)]
+        [sg.Text('Frase descriptografada:', font=("Helvetica", 12)), sg.Input(key='saida', size=(88, 7), disabled=True)]
     ], element_justification='c'), 
      sg.Column([
          [sg.Button('Decrypt', size=(10, 2))]
