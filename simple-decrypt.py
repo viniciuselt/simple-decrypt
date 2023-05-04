@@ -36,7 +36,7 @@ while True:
             elif letter in '5': decrypt += 'i'
             elif letter in '~': decrypt += 'j'
             elif letter in '|': decrypt += 'k'
-            elif letter in '-': decrypt += 'L'
+            elif letter in '-': decrypt += 'l'
             elif letter in '%': decrypt += 'm'
             elif letter in '@': decrypt += 'n'
             elif letter in ':': decrypt += 'o'
